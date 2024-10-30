@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0fcf34-48ae-46f4-be02-0d2215e6dad2" name="Changes" comment="commit and push">
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/.idea/vbis-2024.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="aa0fcf34-48ae-46f4-be02-0d2215e6dad2" name="Changes" comment="commit and push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +100,7 @@
       <workItem from="1730280862420" duration="2579000" />
       <workItem from="1730283473384" duration="703000" />
       <workItem from="1730284190846" duration="59000" />
+      <workItem from="1730284258784" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
@@ -146,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730284198262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1730284330798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730284330798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
