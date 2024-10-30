@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0fcf34-48ae-46f4-be02-0d2215e6dad2" name="Changes" comment="commit and push" />
+    <list default="true" id="aa0fcf34-48ae-46f4-be02-0d2215e6dad2" name="Changes" comment="commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +103,7 @@
       <workItem from="1730283473384" duration="703000" />
       <workItem from="1730284190846" duration="59000" />
       <workItem from="1730284258784" duration="77000" />
+      <workItem from="1730284344512" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
