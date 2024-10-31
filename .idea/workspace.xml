@@ -5,36 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/vbis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/core/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/core/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/core/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/core/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/gitignore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/models/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/vendor/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/views/getUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/views/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis/views/layouts/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +24,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="NP-2023-10-30" />
+                <branch-info repo="$PROJECT_DIR$" source="NP-2024-10-30#2" />
               </list>
             </value>
           </entry>
@@ -62,7 +33,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="NP-2023-10-30" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,19 +74,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#2 on NP-2023-10-30",
-    "last_opened_file_path": "C:/xampp/htdocs/ninavbis2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on NP-2024-10-30#2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ninavbis2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/vbis-2024-main/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -135,7 +112,7 @@
       <workItem from="1730290215943" duration="314000" />
       <workItem from="1730290539193" duration="1118000" />
       <workItem from="1730291676430" duration="2863000" />
-      <workItem from="1730387426324" duration="9538000" />
+      <workItem from="1730387426324" duration="10467000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
@@ -177,11 +154,54 @@
       <option name="project" value="LOCAL" />
       <updated>1730389987677</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1730401427563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730401427563</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ac2fbe8b-27fd-47a1-b3d1-e3e8d70161b2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="ac2fbe8b-27fd-47a1-b3d1-e3e8d70161b2">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="origin/main..origin/NP-2024-10-30" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit and push" />
