@@ -5,33 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
+      <change afterPath="$PROJECT_DIR$/vbis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/core/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/core/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/core/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/core/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/gitignore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/models/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/vendor/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/views/getUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/views/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis/views/layouts/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/controllers/UserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Application.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/BaseController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Request.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/InstalledVersions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/installed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/public/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +135,7 @@
       <workItem from="1730290215943" duration="314000" />
       <workItem from="1730290539193" duration="1118000" />
       <workItem from="1730291676430" duration="2863000" />
-      <workItem from="1730387426324" duration="1772000" />
+      <workItem from="1730387426324" duration="9538000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
@@ -165,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730388740762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1730389987677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730389987677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
