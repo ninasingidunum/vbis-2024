@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push" />
+    <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/BaseController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024-main/vendor/public/index.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +131,7 @@
       <workItem from="1730290215943" duration="314000" />
       <workItem from="1730290539193" duration="1118000" />
       <workItem from="1730291676430" duration="2863000" />
-      <workItem from="1730387426324" duration="799000" />
+      <workItem from="1730387426324" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
@@ -129,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730386230496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1730388740762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730388740762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
