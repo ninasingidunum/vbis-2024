@@ -4,8 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/vbis-2024-main/." isTestSource="false" packagePrefix="app\" />
       <sourceFolder url="file://$MODULE_DIR$/vbis/." isTestSource="false" packagePrefix="app\" />
+      <sourceFolder url="file://$MODULE_DIR$/vbis-2024/." isTestSource="false" packagePrefix="app\" />
       <excludeFolder url="file://$MODULE_DIR$/vbis-2024-main/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vbis/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vbis-2024/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

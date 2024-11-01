@@ -14,6 +14,7 @@
     <include_path>
       <path value="$PROJECT_DIR$/vbis-2024-main/vendor/composer" />
       <path value="$PROJECT_DIR$/vbis/vendor/composer" />
+      <path value="$PROJECT_DIR$/vbis-2024/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4">

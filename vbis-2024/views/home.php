@@ -1,5 +1,4 @@
 <?php
 ?>
 
-<h1>welcome page!</h1>
-
+<h1>WELCOME PAGE</h1>

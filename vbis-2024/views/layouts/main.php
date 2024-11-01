@@ -1,25 +1,31 @@
-<?php
-?>
+<?php ?>
 
-<html lang="en">
+<html lang="eng">
 <head>
 
-    <title>...</title>
+    <title></title></head>
 
-</head>
-
+<style>
+    .custom-header {
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+</style>
 <body>
-<header style="width:150%; background-color: midnightblue; color:white">
-    header page
 
+<header class="custom-header">
+    HEADER PAGE
 </header>
+
 <main>
-    {{ RENDER SECTION }}
+    {{ RENDER_SECTION }}
 </main>
 
 </body>
 
-<footer> footer page</footer>
+<footer class="custom-header">
+    FOOTER PAGE
+</footer>
 
 </html>
-
