@@ -34,4 +34,5 @@ class Router
         echo "NOT FOUND!";
         exit;
     }
+
 }

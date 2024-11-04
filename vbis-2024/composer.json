@@ -1,5 +1,5 @@
 {
-    "name": "petar/vbis2024",
+    "name": "ninav/vbis-2024",
     "autoload": {
         "psr-4": {
             "app\\": "./"
@@ -7,8 +7,8 @@
     },
     "authors": [
         {
-            "name": "pbisevac",
-            "email": "pbisevac@singimail.rs"
+            "name": "Nina",
+            "email": "nina.petrovic.22@singimail.rs"
         }
     ],
     "require": {

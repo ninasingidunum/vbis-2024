@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use app\core\BaseController;
-
 use app\models\UserModel;
 
 class UserController extends BaseController
@@ -12,12 +11,8 @@ class UserController extends BaseController
     {
         $model = new UserModel();
         $model->email = 'pbisevac@singidunum.ac.rs';
-        $model->firstName = 'Nina';
-        $model->lastName = 'Petrovic';
-
-        echo "<pre>";
-        var_dump($model);
-        exit;
+        $model->firstName = 'Nikola';
+        $model->lastName = 'Bisevac';
 
         $this->view->render('getUser', 'main', $model);
     }

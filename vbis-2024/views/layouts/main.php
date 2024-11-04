@@ -8,14 +8,14 @@
 <style>
     .custom-header {
         width: 100%;
-        background-color: red;
+        background-color: midnightblue;
         color: white;
     }
 </style>
 <body>
 
 <header class="custom-header">
-    HEADER PAGE
+    header page
 </header>
 
 <main>
@@ -25,7 +25,7 @@
 </body>
 
 <footer class="custom-header">
-    FOOTER PAGE
+    footer page
 </footer>
 
 </html>

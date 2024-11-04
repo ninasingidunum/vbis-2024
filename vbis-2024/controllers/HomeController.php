@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use app\core\BaseController;
-use app\core\View;
 
 class HomeController extends BaseController
 {
