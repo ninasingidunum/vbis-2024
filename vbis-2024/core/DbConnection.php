@@ -6,10 +6,14 @@ use mysqli;
 
 class DbConnection
 {
+    public function connect()
+    {
+        $mysqli = new mysqli("localhost", "root", "", "vbis");
 
-    public function connect(){
-
-        $msqli = new mysqli("localhost", "root", "", "")
+        return $mysqli;
     }
-
 }
+
+
+
+

@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/vbis-2024/core/DbConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/core/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/models/ProductModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024/core/DbConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/core/DbConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/models/UserModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/views/getUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/getUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,26 +144,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "NP-2024-01-11",
-    "last_opened_file_path": "C:/xampp/htdocs/ninavbis2024/vbis-2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NP-2024-01-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ninavbis2024/vbis-2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
       <option name="pathToComposerJson" value="$PROJECT_DIR$/vbis-2024-main/composer.json" />
