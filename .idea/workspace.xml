@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/vbis-2024/core/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbis-2024/models/ProductModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/views/createUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/views/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/views/updateProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/views/updateUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vbis-2024/views/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48888cba-dc79-40a8-966f-2ca26b86b3d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48888cba-dc79-40a8-966f-2ca26b86b3d7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/core/DbConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/core/DbConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024/core/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/core/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vbis-2024/models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/models/ProductModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/models/UserModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vbis-2024/views/getUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/getUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vbis-2024/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/vbis-2024/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +152,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;NP-2024-01-11&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NP-2024-08-11&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ninavbis2024/vbis-2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
