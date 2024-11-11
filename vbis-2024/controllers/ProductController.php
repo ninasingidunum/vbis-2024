@@ -44,7 +44,7 @@ class ProductController
 
         $model->update("where id = $model->id");
 
-        header("location:" . "/products");
+        header("location:" . ".products");
     }
 
 }
