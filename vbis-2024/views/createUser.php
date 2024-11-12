@@ -22,11 +22,9 @@ use app\models\UserModel;
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="example-text-input" class="form-control-label">Email address</label>
-                        <label>
-                            <input class="form-control" type="email" name="email" value="<?php echo $params->email ?>"
-                                   onfocus="focused(this)"
-                                   onfocusout="defocused(this)">
-                        </label>
+                        <input class="form-control" type="email" name="email" value="<?php echo $params->email ?>"
+                               onfocus="focused(this)"
+                               onfocusout="defocused(this)">
                         <?php
                         if ($params != null && $params->errors != null) {
                             foreach ($params->errors as $attribute => $error) {
@@ -41,11 +39,9 @@ use app\models\UserModel;
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="example-text-input" class="form-control-label">First name</label>
-                        <label>
-                            <input class="form-control" type="text" name="first_name"
-                                   value="<?php echo $params->first_name ?>" onfocus="focused(this)"
-                                   onfocusout="defocused(this)">
-                        </label>
+                        <input class="form-control" type="text" name="first_name"
+                               value="<?php echo $params->first_name ?>" onfocus="focused(this)"
+                               onfocusout="defocused(this)">
 
                         <?php
                         if ($params != null && $params->errors != null) {
@@ -61,11 +57,9 @@ use app\models\UserModel;
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="example-text-input" class="form-control-label">Last name</label>
-                        <label>
-                            <input class="form-control" type="text" name="last_name"
-                                   value="<?php echo $params->last_name ?>" onfocus="focused(this)"
-                                   onfocusout="defocused(this)">
-                        </label>
+                        <input class="form-control" type="text" name="last_name"
+                               value="<?php echo $params->last_name ?>" onfocus="focused(this)"
+                               onfocusout="defocused(this)">
                         <?php
                         if ($params != null && $params->errors != null) {
                             foreach ($params->errors as $attribute => $error) {

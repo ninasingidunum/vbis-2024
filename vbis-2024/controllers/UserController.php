@@ -2,19 +2,21 @@
 
 namespace app\controllers;
 
+use app\models\UserModel;
 use app\core\BaseController;
 
-use app\models\UserModel;
 
 class UserController extends BaseController
 {
-    public function readUser()
-    {
-        $model = new UserModel();
-        $model->one=("where id=2");
 
-        $this->view->render('getUser', 'main', $model);
-    }
+    public function readUser()
+{
+    $model = new UserModel();
+    $model->one = ("where id = 2");
+
+    $this->view->render('getUser', 'main', $model);
+}
+
 
     public function readAll()
     {
@@ -44,8 +46,9 @@ class UserController extends BaseController
 
         $model->update("where id = $model->id");
 
-        header("location:" . "/users");
+        header("location:"."/users");
     }
+
 
 
     public function createUser()

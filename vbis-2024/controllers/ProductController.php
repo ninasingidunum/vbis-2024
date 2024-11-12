@@ -6,7 +6,7 @@ use app\core\BaseController;
 use app\models\ProductModel;
 use app\models\UserModel;
 
-class ProductController
+class ProductController extends BaseController
 {
 
     public function products()
@@ -44,7 +44,6 @@ class ProductController
 
         $model->update("where id = $model->id");
 
-        header("location:" . ".products");
+        header("location:" . "/products");
     }
-
 }
