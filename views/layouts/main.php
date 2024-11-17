@@ -10,12 +10,12 @@
         VBIS 2024/2025
     </title>
     <!--     Fonts and icons     -->
-    <link href="../assets/css/font.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
     <!-- Nucleo Icons -->
-    <link href="../assets/css/nucleo-icons.css" rel="stylesheet"/>
-    <link href="../assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <link href=https://demos.creative-tim.com/argon-dashboard-pro/assets/css/nucleo-icons.css" rel="stylesheet"/>
+    <link href="https://demos.creative-tim.com/argon-dashboard-pro/assets/css/nucleo-svg.css" rel="stylesheet"/>
     <!-- Font Awesome Icons -->
-    <script src="../assets/js/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- CSS Files -->
     <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.1.0" rel="stylesheet"/>
 </head>
@@ -57,11 +57,27 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link " href="/products">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-folder-17 text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Products</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link " href="/login">
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-single-copy-04 text-dark text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Login</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/processLogout">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-user-run text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Log out</span>
                 </a>
             </li>
             <li class="nav-item">
