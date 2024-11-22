@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push" />
+    <list default="true" id="dc9941b0-7c1d-4403-8766-39b5280420fa" name="Changes" comment="commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/products.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/vbis-2024/composer.json</pharConfigPath>
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -32,7 +35,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="NP-2024-10-30#3" />
+        <entry key="$PROJECT_DIR$" value="NP-11-15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,6 +126,7 @@
       <path value="$PROJECT_DIR$/vbis-2024-main/vendor/composer" />
       <path value="$PROJECT_DIR$/vbis/vendor/composer" />
       <path value="$PROJECT_DIR$/vbis-2024/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -134,26 +138,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;NP-2024-08-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ninavbis2024/vbis-2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP Script.UserModel.php.executor": "Run",
+    "PHP Script.users.php.executor": "Run",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "NP-11-22",
+    "last_opened_file_path": "C:/xampp/htdocs/ninavbis2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
       <option name="pathToComposerJson" value="$PROJECT_DIR$/vbis-2024-main/composer.json" />
@@ -186,6 +192,10 @@
       <workItem from="1730418490986" duration="4241000" />
       <workItem from="1730454999923" duration="4949000" />
       <workItem from="1730673259850" duration="90000" />
+      <workItem from="1731425939030" duration="2238000" />
+      <workItem from="1731773459014" duration="17363000" />
+      <workItem from="1731846578378" duration="3154000" />
+      <workItem from="1731849769776" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="commit and push">
       <option name="closed" value="true" />
@@ -267,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730455151657</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1731425993995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731425993995</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
