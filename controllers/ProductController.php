@@ -11,13 +11,13 @@ class ProductController extends BaseController
 {
 
 
-    public function products()
+    public function product()
     {
         $model = new ProductModel();
 
         $results = $model->all("");
 
-        $this->view->render('products', 'main', $results);
+        $this->view->render('product', 'main', $results);
     }
 
     public function update()
@@ -46,7 +46,7 @@ class ProductController extends BaseController
 
         $model->update("where id = $model->id");
 
-        header("location:" . "/products");
+        header("location:" . "/product");
     }
         public function accessRole(): array
         {

@@ -34,6 +34,40 @@ use app\models\UserModel;
                         }
                         ?>
                     </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="example-text-input" class="form-control-label">type</label>
+                        <input class="form-control" type="text" name="type" value="<?php echo $params->type ?>"
+                               onfocus="focused(this)" onfocusout="defocused(this)">
+                        <?php
+                        if ($params != null && $params->errors != null) {
+                            foreach ($params->errors as $attribute => $error) {
+                                if ($attribute == 'type') {
+                                    echo "<span class='text-danger'>$error[0]</span>";
+                                }
+                            }
+                        }
+                        ?>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="example-text-input" class="form-control-label">brand</label>
+                        <input class="form-control" type="text" name="brand" value="<?php echo $params->brand ?>"
+                               onfocus="focused(this)" onfocusout="defocused(this)">
+                        <?php
+                        if ($params != null && $params->errors != null) {
+                            foreach ($params->errors as $attribute => $error) {
+                                if ($attribute == 'brand') {
+                                    echo "<span class='text-danger'>$error[0]</span>";
+                                }
+                            }
+                        }
+                        ?>
+                    </div>
                 </div>
 
                 <div class="col-md-12">
@@ -52,6 +86,24 @@ use app\models\UserModel;
                         ?>
                     </div>
                 </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="example-text-input" class="form-control-label">price</label>
+                        <input class="form-control" type="text" name="price" value="<?php echo $params->price ?>"
+                               onfocus="focused(this)" onfocusout="defocused(this)">
+                        <?php
+                        if ($params != null && $params->errors != null) {
+                            foreach ($params->errors as $attribute => $error) {
+                                if ($attribute == 'price') {
+                                    echo "<span class='text-danger'>$error[0]</span>";
+                                }
+                            }
+                        }
+                        ?>
+                    </div>
+                </div>
+
             </div>
         </div>
     </form>

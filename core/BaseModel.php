@@ -9,11 +9,12 @@ abstract class BaseModel
     public const RULE_EMAIL = "rule_email";
     public const RULE_REQUIRED = "rule_required";
     public const RULE_UNIQUE_EMAIL = "rule_unique_email";
+    public const GREATER_THEN_ZERO = "greater_then_zero";
 
     public $errors;
 
     private DbConnection $db;
-    private mysqli $con;
+    public mysqli $con;
 
     public function __construct()
     {

@@ -57,13 +57,46 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/products">
+                <a class="nav-link " href="/product">
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-folder-17 text-dark text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Products</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/myReports">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-chart-bar-32 text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">My Reports</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/service">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-folder-17 text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Services</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/servicesForUser">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-bullet-list-67 text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">List of reservations</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/adminReports">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-chart-pie-35 text-dark text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Admin Reports</span>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link " href="/login">
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">

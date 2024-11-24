@@ -15,6 +15,7 @@ class UserServicesController extends BaseController
         $results = $model->all("");
 
         $this->view->render('servicesForUser', 'auth', $results);
+
     }
 
     public function processReservation()
@@ -25,7 +26,9 @@ class UserServicesController extends BaseController
 
         $results = $model->all("");
 
+
         $this->view->render('servicesForUser', 'auth', $results);
+
     }
 
     public function accessRole()

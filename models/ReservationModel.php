@@ -14,17 +14,17 @@ class ReservationModel extends BaseModel
 
     public function tableName()
     {
-        return 'reservations';
+        return 'reservation';
     }
 
     public function readColumns()
     {
-        return ['id', 'reservation_time', 'id_user', 'id_services', 'price'];
+        return ['id', 'reservation_time', 'id_user', 'id_services','price'];
     }
 
     public function editColumns()
     {
-        return ['reservation_time', 'id_user', 'id_services', 'price'];
+        return ['reservation_time', 'id_user', 'id_services','price'];
     }
 
     public function validationRules()
@@ -33,6 +33,7 @@ class ReservationModel extends BaseModel
             'reservation_time' => [self::RULE_REQUIRED],
             'id_user' => [self::RULE_REQUIRED],
             'id_services' => [self::RULE_REQUIRED]
+
         ];
     }
 }
